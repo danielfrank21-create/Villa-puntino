@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Villa Puntino – Ferienwohnungen in Sirmione am Gardasee</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Raleway:wght@300;400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#EEF5F7}
+a{color:#1B6E8C}a:hover{color:#124D63}
+</style>
+
+<style>html{scroll-behavior:smooth} [id]{scroll-margin-top:90px} img{max-width:100%}</style>
+<style>
+.burger{display:none;width:46px;height:46px;border:1px solid #D3E3E9;border-radius:12px;background:#fff;align-items:center;justify-content:center;cursor:pointer;position:relative;z-index:40;padding:0}
+.burger span{display:block;width:20px;height:2px;background:#0E2F3D;border-radius:2px;position:relative;transition:.25s}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:20px;height:2px;background:#0E2F3D;border-radius:2px;transition:.25s}
+.burger span::before{top:-6px}.burger span::after{top:6px}
+.burger.open span{background:transparent}.burger.open span::before{top:0;transform:rotate(45deg)}.burger.open span::after{top:0;transform:rotate(-45deg)}
+.backdrop{display:none;position:fixed;inset:0;background:rgba(14,47,61,.35);z-index:9}
+@media (max-width: 900px){
+  .burger{display:flex}
+  .menu{position:fixed;top:0;right:0;height:100vh;height:100dvh;width:min(80vw,320px);background:#fff;flex-direction:column;flex-wrap:nowrap!important;align-items:stretch!important;gap:4px!important;padding:96px 28px 28px;box-sizing:border-box;transform:translateX(100%);transition:transform .3s ease;box-shadow:-12px 0 32px rgba(14,47,61,.18);z-index:30}
+  .menu.open{transform:none}
+  .menu a{font-size:20px!important;padding:14px 0!important;border-bottom:1px solid #EEF5F7}
+  .menu a.cta{margin-top:18px;text-align:center;border-bottom:0;padding:14px 18px!important}
+  .backdrop.show{display:block}
+}
+</style>
+</head>
+<body>
+<div style="font-family: Inter, system-ui, sans-serif; color: #0E2F3D; background: #EEF5F7; font-size: 17px; line-height: 1.6">
+
+  <!-- Navigation -->
+  <header style="position: sticky; top: 0; z-index: 10; background: rgba(238,245,247,0.94); border-bottom: 1px solid #D3E3E9">
+    <nav style="max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+      <a href="index.html" aria-label="Villa Puntino – Startseite" style="display: flex; align-items: center; gap: 10px; text-decoration: none"><svg aria-hidden="true" viewBox="0 0 112 72" width="58" height="37"><path d="M28 50C23.32 36 22.8 26 26.18 13C27.22 8 28.78 8 29.82 13C33.2 26 32.68 36 28 50z" fill="#97A35A"></path><path d="M28 47V59" stroke="#97A35A" stroke-width="1.6" stroke-linecap="round"></path><path d="M41 51C36.68 37 36.2 31 39.32 18C40.28 13 41.72 13 42.68 18C45.8 31 45.32 37 41 51z" fill="#97A35A"></path><path d="M41 48V60" stroke="#97A35A" stroke-width="1.6" stroke-linecap="round"></path><path d="M54 50C49.14 36 48.6 24 52.11 11C53.19 6 54.81 6 55.89 11C59.4 24 58.86 36 54 50z" fill="#97A35A"></path><path d="M54 47V59" stroke="#97A35A" stroke-width="1.6" stroke-linecap="round"></path><path d="M70 51C65.68 37 65.2 30 68.32 17C69.28 12 70.72 12 71.68 17C74.8 30 74.32 37 70 51z" fill="#97A35A"></path><path d="M70 48V60" stroke="#97A35A" stroke-width="1.6" stroke-linecap="round"></path><path d="M83 50C78.32 36 77.8 25 81.18 12C82.22 7 83.78 7 84.82 12C88.2 25 87.68 36 83 50z" fill="#97A35A"></path><path d="M83 47V59" stroke="#97A35A" stroke-width="1.6" stroke-linecap="round"></path><path d="M16 60H96" stroke="#97A35A" stroke-width="2" stroke-linecap="round"></path><path d="M26 67.5c4 0 4-2.2 8-2.2s4 2.2 8 2.2 4-2.2 8-2.2 4 2.2 8 2.2 4-2.2 8-2.2 4 2.2 8 2.2 4-2.2 8-2.2 4 2.2 8 2.2" stroke="#6FA0B3" stroke-width="1.8" stroke-linecap="round" fill="none"></path></svg><span style="font-family: Raleway, sans-serif; font-weight: 300; font-size: 18px; letter-spacing: 0.2em; padding-left: 0.2em; color: #3E4A2A; line-height: 1">VILL<svg aria-hidden="true" viewBox="0 0 11.6 12" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linejoin="miter" style="display: inline-block; height: 0.71em; width: auto; vertical-align: baseline; margin-right: 0.2em; overflow: visible"><path d="M0.5 12L5.8 0.6 11.1 12"></path></svg> PUNTINO.</span></a>
+      <div class="menu" id="menu" style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 22px; font-size: 15px">
+        <a href="index.html" aria-current="page" style="color: #0E2F3D; text-decoration: underline; text-underline-offset: 6px; font-weight: 700; padding: 10px 0">Startseite</a>
+        <a href="erdgeschoss.html" style="color: #0E2F3D; text-decoration: none; text-underline-offset: 6px; font-weight: 500; padding: 10px 0">Erdgeschoss</a>
+        <a href="obergeschoss.html" style="color: #0E2F3D; text-decoration: none; text-underline-offset: 6px; font-weight: 500; padding: 10px 0">Obergeschoss</a>
+        <a href="#umgebung" style="color: #0E2F3D; text-decoration: none; font-weight: 500; padding: 10px 0">Umgebung</a>
+        <a class="cta" href="#anfrage" style="background: #1B6E8C; color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 10px 18px; border-radius: 999px">Anfrage</a>
+      </div>
+      <button class="burger" type="button" aria-label="Menü öffnen" aria-controls="menu" aria-expanded="false"><span></span></button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="start" style="position: relative; min-height: 640px; display: flex; align-items: flex-end; overflow: hidden; background: #163B4A">
+    <img src="img/og-liegen.jpg" alt="Privater Garten mit Sonnenliegen, Palmen und Oleander" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
+    <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.28)"></div>
+    <div style="position: relative; max-width: 1200px; width: 100%; margin: 0 auto; padding: 120px 24px 72px; box-sizing: border-box; color: #FFFFFF">
+      <p style="margin: 0 0 12px; font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase">Punta Grò · Sirmione · Gardasee</p>
+      <h1 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(44px, 7vw, 88px); line-height: 1.02; letter-spacing: -0.01em">Villa Puntino</h1>
+      <p style="margin: 18px 0 0; max-width: 620px; font-size: clamp(18px, 2.2vw, 22px); line-height: 1.5">Zwei moderne Ferienwohnungen mit privatem Garten, nur wenige Schritte vom Ufer des Gardasees. Hunde sind herzlich willkommen.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px">
+        <a href="#anfrage" style="background: #FFFFFF; color: #0E2F3D; text-decoration: none; font-weight: 600; padding: 14px 26px; border-radius: 999px">Verfügbarkeit anfragen</a>
+        <a href="#wohnungen" style="border: 1.5px solid rgba(255,255,255,0.85); color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 13px 26px; border-radius: 999px">Wohnungen ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eckdaten -->
+  <section style="background: #FFFFFF; border-bottom: 1px solid #D3E3E9">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 28px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 20px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16c2 0 2-1.5 4-1.5S8 16 10 16s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"></path><path d="M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"></path><path d="M12 3v8M8 7l4-4 4 4"></path></svg>
+        <div><b style="display: block; font-family: Outfit, sans-serif; font-size: 20px">50 m</b><span style="font-size: 14px; color: #4A6270">zum Gardasee</span></div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+        <div><b style="display: block; font-family: Outfit, sans-serif; font-size: 20px">2 × 85 m²</b><span style="font-size: 14px; color: #4A6270">Erdgeschoss &amp; Obergeschoss</span></div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17.5" cy="9" r="2.4"></circle><path d="M16 14.2c3 .2 5 2.6 5 5.8"></path></svg>
+        <div><b style="display: block; font-family: Outfit, sans-serif; font-size: 20px">4 + 1 Personen</b><span style="font-size: 14px; color: #4A6270">je Wohnung</span></div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="10" r="1.8"></circle><circle cx="9.5" cy="6" r="1.8"></circle><circle cx="14.5" cy="6" r="1.8"></circle><circle cx="19" cy="10" r="1.8"></circle><path d="M12 11c-3 0-5.5 4-5.5 6.5 0 2 1.6 2.5 3 2.5 1 0 1.6-.6 2.5-.6s1.5.6 2.5.6c1.4 0 3-.5 3-2.5C17.5 15 15 11 12 11z"></path></svg>
+        <div><b style="display: block; font-family: Outfit, sans-serif; font-size: 20px">Hunde willkommen</b><span style="font-size: 14px; color: #4A6270">eingezäunter Garten</span></div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L5 13h6l-1 9 8-11h-6z"></path></svg>
+        <div><b style="display: block; font-family: Outfit, sans-serif; font-size: 20px">E-Ladestation</b><span style="font-size: 14px; color: #4A6270">großer Parkplatz</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Einleitung -->
+  <section style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 48px; align-items: center">
+    <div>
+      <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1B6E8C">Willkommen</p>
+      <h2 style="margin: 0 0 20px; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(32px, 4vw, 46px); line-height: 1.1">Ruhig wohnen, ein paar Schritte vom See</h2>
+      <p style="margin: 0 0 16px; color: #2E4651">Die Villa Puntino liegt in Punta Grò, einem ruhigen Ortsteil von Sirmione am Südufer des Gardasees. Zum Ufer sind es nur ein paar Schritte – perfekt für ein Bad im See am Morgen oder einen Spaziergang am Wasser am Abend.</p>
+      <p style="margin: 0; color: #2E4651">Im Haus gibt es zwei gleich große, modern eingerichtete Wohnungen mit je zwei Schlafzimmern, Bad und offener Wohnküche. Jede Wohnung hat ihren eigenen, abgetrennten Garten mit Gasgrill, Außendusche, Gartentisch und Sonnenliegen.</p>
+    </div>
+    <img src="img/haus-garten.jpg" alt="Die Villa Puntino vom Garten aus gesehen" style="width: 100%; height: 520px; object-fit: cover; border-radius: 18px; display: block">
+  </section>
+
+  <!-- Wohnungen -->
+  <section id="wohnungen" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 88px">
+    <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1B6E8C">Die Wohnungen</p>
+    <h2 style="margin: 0 0 32px; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(32px, 4vw, 46px); line-height: 1.1">Zwei Wohnungen, ein Haus am See</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px">
+      <a href="erdgeschoss.html" style="display: flex; flex-direction: column; background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 20px; overflow: hidden; color: #0E2F3D; text-decoration: none">
+        <img src="img/eg-wohnen2.jpg" alt="Wohnküche im Erdgeschoss" style="width: 100%; height: 340px; object-fit: cover; display: block">
+        <div style="padding: 26px 28px 30px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-size: 14px; font-weight: 600; color: #4A6270">Wohnung 1</span>
+          <span style="font-family: Outfit, sans-serif; font-weight: 600; font-size: 28px; line-height: 1.15">Erdgeschoss mit eigenem Garten</span>
+          <span style="color: #2E4651; font-size: 16px">85 m² · 2 Schlafzimmer · 4 + 1 Personen · Terrasse und abgetrennter Garten direkt vor der Tür.</span>
+          <span style="margin-top: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: #1B6E8C">Zum Erdgeschoss<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+      <a href="obergeschoss.html" style="display: flex; flex-direction: column; background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 20px; overflow: hidden; color: #0E2F3D; text-decoration: none">
+        <img src="img/og-dachterrasse.jpg" alt="Große Terrasse im Obergeschoss" style="width: 100%; height: 340px; object-fit: cover; display: block">
+        <div style="padding: 26px 28px 30px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-size: 14px; font-weight: 600; color: #4A6270">Wohnung 2</span>
+          <span style="font-family: Outfit, sans-serif; font-weight: 600; font-size: 28px; line-height: 1.15">Obergeschoss mit Terrasse &amp; Seeblick-Balkon</span>
+          <span style="color: #2E4651; font-size: 16px">85 m² · 2 Schlafzimmer · 4 + 1 Personen · große Terrasse, Balkon mit Seeblick und eigener Garten.</span>
+          <span style="margin-top: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: #1B6E8C">Zum Obergeschoss<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Für beide -->
+  <section style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 40px">
+    <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1B6E8C">In beiden Wohnungen</p>
+    <h2 style="margin: 0 0 32px; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(32px, 4vw, 46px); line-height: 1.1">Alles für entspannte Tage im Freien</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h16a8 8 0 0 1-16 0z"></path><path d="M9 18l-2 4M15 18l2 4M8 6c0-1 1-1.5 1-2.5M12 6c0-1 1-1.5 1-2.5M16 6c0-1 1-1.5 1-2.5"></path></svg>
+        <h3 style="margin: 12px 0 6px; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Gasgrill</h3>
+        <p style="margin: 0; font-size: 15px; color: #4A6270">Grillabende im eigenen Garten.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V6a3 3 0 0 1 6 0"></path><path d="M9 6h6"></path><path d="M13 10v1M16 10v1M13 14v1M16 14v1M19 10v1M19 14v1"></path></svg>
+        <h3 style="margin: 12px 0 6px; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Außendusche</h3>
+        <p style="margin: 0; font-size: 15px; color: #4A6270">Abduschen nach dem Baden im See.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6h8l5 6"></path><path d="M3 17h18M6 17v3M18 17v3"></path></svg>
+        <h3 style="margin: 12px 0 6px; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Sonnenliegen &amp; Tischset</h3>
+        <p style="margin: 0; font-size: 15px; color: #4A6270">Gartenmöbel für Frühstück und Siesta.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="13" height="10" rx="2"></rect><path d="M16 10h3l2 3v4h-5"></path><circle cx="7" cy="18" r="1.6"></circle><circle cx="17.5" cy="18" r="1.6"></circle><path d="M9 9l-1.5 3h3L9 15"></path></svg>
+        <h3 style="margin: 12px 0 6px; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Parkplatz mit E-Ladestation</h3>
+        <p style="margin: 0; font-size: 15px; color: #4A6270">Großer Parkplatz direkt am Haus.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hunde -->
+  <section id="hunde" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 88px">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0; background: #1B6E8C; border-radius: 22px; overflow: hidden; color: #FFFFFF">
+      <img src="img/og-garten.jpg" alt="Großer, eingezäunter Rasen im Garten" style="width: 100%; height: 100%; min-height: 360px; object-fit: cover; display: block">
+      <div style="padding: 48px 40px; display: flex; flex-direction: column; justify-content: center">
+        <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85">Urlaub mit Hund</p>
+        <h2 style="margin: 0 0 16px; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 42px); line-height: 1.12">Ihr Hund ist bei uns herzlich willkommen</h2>
+        <p style="margin: 0 0 14px; line-height: 1.6">Die meisten unserer Gäste reisen mit Hund an – und das freut uns. Jede Wohnung hat ihren eigenen, abgetrennten Garten, in dem sich Vierbeiner frei bewegen können.</p>
+        <p style="margin: 0; line-height: 1.6">Auch bei uns zu Hause gibt es einen Hund: unsere Dackeldame Kika.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Umgebung -->
+  <section id="umgebung" style="max-width: 1200px; margin: 0 auto; padding: 24px 24px 88px">
+    <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1B6E8C">Umgebung</p>
+    <h2 style="margin: 0 0 12px; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(32px, 4vw, 46px); line-height: 1.1">Rund um die Villa Puntino</h2>
+    <p style="margin: 0 0 32px; max-width: 680px; color: #2E4651">Baden, Radfahren, Kultur und Wein – vom Haus aus ist am Südufer des Gardasees vieles ganz nah. Die Entfernungen gelten ab der Villa Puntino.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20c2 0 2-1.5 4-1.5S9 20 11 20s2-1.5 4-1.5 2 1.5 4 1.5"></path><path d="M12 15V5"></path><path d="M4 9a8 4 0 0 1 16 0z"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">zu Fuß</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Park &amp; Strand Punta Grò</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Direkt von der Villa zu Fuß an den See: Der Park Punta Grò ist ein Naturgebiet mit viel Grün, großen Liegewiesen und Bäumen, die Schatten spenden – ideal für Spaziergänge am Ufer. Am Strand gibt es eine Strandbar und Liegenverleih.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="10" r="1.8"></circle><circle cx="9.5" cy="6" r="1.8"></circle><circle cx="14.5" cy="6" r="1.8"></circle><circle cx="19" cy="10" r="1.8"></circle><path d="M12 11c-3 0-5.5 4-5.5 6.5 0 2 1.6 2.5 3 2.5 1 0 1.6-.6 2.5-.6s1.5.6 2.5.6c1.4 0 3-.5 3-2.5C17.5 15 15 11 12 11z"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">zu Fuß</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Mit Hund in den See</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Kein Hundestrand nötig: Unten am See bei der Villa kann Ihr Hund einfach direkt ins Wasser. Vom Steg aus genießen Sie dabei den Blick über den Gardasee.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="16" r="3.5"></circle><circle cx="18" cy="16" r="3.5"></circle><path d="M6 16l4-7h5l3 7M10 9l-1.5-3H7M15 9l-3 7"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">direkt am Haus</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Radweg nach Sirmione</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Der Uferweg führt von Punta Grò immer am See entlang bis nach Sirmione – ideal zum Radfahren, Joggen und Spazieren.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9h3V6h2v3h2V6h2v3h2V6h2v3h3v12z"></path><path d="M10 21v-4a2 2 0 0 1 4 0v4"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">6 km</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Altstadt Sirmione</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Die autofreie Altstadt mit der Scaligerburg und den Grotten des Catull, den Resten einer römischen Villa an der Spitze der Halbinsel.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4c-1 1.5 1 2.5 0 4M12 4c-1 1.5 1 2.5 0 4M16 4c-1 1.5 1 2.5 0 4"></path><path d="M3 12h18v2a7 7 0 0 1-7 7h-4a7 7 0 0 1-7-7z"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">6 km</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Thermen von Sirmione</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Warmes Thermalwasser direkt am See – zum Beispiel im Thermalbad Aquaria in der Altstadt.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l3-11h12l3 11z"></path><path d="M9 20v-4h6v4M8 9V5M16 9V5M12 9V4"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">5 km</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Peschiera del Garda</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Die Festungsstadt mit ihren Mauern und Kanälen gehört zum UNESCO-Welterbe und ist auch über Radwege erreichbar.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l-.5 6a3.5 3.5 0 0 1-7 0z"></path><path d="M12 13v7M8.5 20h7"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">rund ums Haus</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Lugana-Weinberge</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Punta Grò liegt mitten im Weinbaugebiet des Lugana. Viele Weingüter in der Umgebung laden zur Verkostung ein.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 3.5v17M3.5 12h17M6 6l12 12M18 6L6 18"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">9 km</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Gardaland</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Italiens bekanntester Freizeitpark – ein Highlight für Familien mit Kindern.</p>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D3E3E9; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+          <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l4-3v14M9 21V5l6-2v18M15 21v-9l4 2v7"></path></svg>
+          <span style="font-size: 13px; font-weight: 600; color: #1B6E8C; background: #EEF5F7; border-radius: 999px; padding: 4px 10px">40 km</span>
+        </div>
+        <h3 style="margin: 4px 0 0; font-family: Outfit, sans-serif; font-size: 20px; font-weight: 600">Verona</h3>
+        <p style="margin: 0; font-size: 15px; color: #2E4651">Die Stadt von Romeo und Julia mit der römischen Arena ist in rund 40 Autominuten erreicht – perfekt für einen Tagesausflug.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gastgeber & Lage -->
+  <section id="lage" style="background: #FFFFFF; border-top: 1px solid #D3E3E9">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 48px">
+      <div>
+        <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1B6E8C">Lage</p>
+        <h2 style="margin: 0 0 16px; font-family: Outfit, sans-serif; font-weight: 600; font-size: 36px; line-height: 1.15">Punta Grò, Sirmione</h2>
+        <p style="margin: 0 0 18px; color: #2E4651">Ruhige Wohnlage am Südufer des Gardasees. Der See liegt praktisch vor der Haustür.</p>
+        <p style="margin: 0 0 22px; font-weight: 600">Via Mozart 17<br>Punta Grò, 25019 Sirmione (BS)<br>Italien</p>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Via+Mozart+17+Sirmione" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600; padding: 10px 0">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+          In Google Maps öffnen
+        </a>
+      </div>
+      <div>
+        <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1B6E8C">Ihre Gastgeber</p>
+        <h2 style="margin: 0 0 16px; font-family: Outfit, sans-serif; font-weight: 600; font-size: 36px; line-height: 1.15">Daniel, Melina &amp; Kika</h2>
+        <p style="margin: 0; color: #2E4651">Hinter der Villa Puntino stehen wir zwei – und natürlich Kika, unsere Dackeldame. Wir lieben den Gardasee und wünschen uns, dass Sie sich hier genauso wohlfühlen wie wir: mit viel Platz drinnen und draußen, für Zwei- und Vierbeiner. Haben Sie vor oder während Ihres Urlaubs eine Frage, schreiben Sie uns einfach oder rufen Sie an.</p>
+        <img src="img/gastgeber.jpg" alt="Daniel und Melina mit Dackeldame Kika" style="display: block; width: 100%; max-width: 420px; height: 520px; object-fit: cover; object-position: center 20%; border-radius: 18px; margin-top: 24px">
+      </div>
+    </div>
+  </section>
+
+  <!-- Anfrage -->
+  <section id="anfrage" style="background: #0E2F3D; color: #FFFFFF">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center">
+      <div>
+        <p style="margin: 0 0 10px; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #9FC9D4">Anfrage &amp; Preise</p>
+        <h2 style="margin: 0 0 16px; font-family: Outfit, sans-serif; font-weight: 600; font-size: clamp(32px, 4vw, 46px); line-height: 1.1">Preise auf Anfrage</h2>
+        <p style="margin: 0; color: #D2E4EA; max-width: 520px">Schreiben Sie uns Ihren Wunschzeitraum, die Anzahl der Personen und ob ein Hund mitkommt – wir melden uns schnell mit Verfügbarkeit und Preis.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px">
+        <a href="mailto:villa-christina@outlook.it?subject=Anfrage%20Villa%20Puntino" style="display: flex; align-items: center; gap: 14px; background: #FFFFFF; color: #0E2F3D; text-decoration: none; border-radius: 16px; padding: 18px 22px">
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+          <span><b style="display: block; font-size: 17px">E-Mail schreiben</b><span style="font-size: 15px; color: #4A6270">villa-christina@outlook.it</span></span>
+        </a>
+        <a href="tel:+393883907745" style="display: flex; align-items: center; gap: 14px; background: #FFFFFF; color: #0E2F3D; text-decoration: none; border-radius: 16px; padding: 18px 22px">
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1B6E8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+          <span><b style="display: block; font-size: 17px">Anrufen</b><span style="font-size: 15px; color: #4A6270">+39 388 390 7745</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background: #0E2F3D; color: #A9C7D2; border-top: 1px solid #1E4757">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-size: 14px">
+      <span>Villa Puntino · Via Mozart 17 · Punta Grò, Sirmione</span>
+      <span>Daniel Frank · +39 388 390 7745 · villa-christina@outlook.it</span>
+    </div>
+  </footer>
+</div>
+<div class="backdrop"></div>
+<script>
+(function(){var b=document.querySelector('.burger'),m=document.querySelector('.menu'),d=document.querySelector('.backdrop');
+function set(o){m.classList.toggle('open',o);b.classList.toggle('open',o);d.classList.toggle('show',o);b.setAttribute('aria-expanded',o);}
+b.addEventListener('click',function(){set(!m.classList.contains('open'))});d.addEventListener('click',function(){set(false)});
+m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){set(false)})});})();
+</script>
+</body>
+</html>
